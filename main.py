@@ -4,7 +4,7 @@ import time
 import os
 
 # GitHub Secrets에서 정보를 가져오도록 설정 (보안상 중요)
-TELEGRAM_TOKEN = os.environ.get('AAGMhP8dyOJnpVPGo9Y4qBOk3OgTe5qddjQ/getUpdates')
+TELEGRAM_TOKEN = os.environ.get('AAGMhP8dyOJnpVPGo9Y4qBOk3OgTe5qddjQ')
 CHAT_ID = os.environ.get('7478800309')
 KEYWORDS = ["연번동의서", "재개발", "재건축"]
 
